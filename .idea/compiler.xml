@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="book" />
+        <module name="MyBatis-Plus_DynamicDataSource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="book" target="1.8" />
+      <module name="MyBatis-Plus_DynamicDataSource" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

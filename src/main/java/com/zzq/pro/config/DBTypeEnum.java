@@ -1,4 +1,4 @@
-package com.airticket.book.config;
+package com.zzq.pro.config;
 
 public enum DBTypeEnum {
     MASTER("master"), SLAVE("slave");

@@ -1,4 +1,4 @@
-package com.airticket.book.config;
+package com.zzq.pro.config;
 
 public class DBContextHolder {
     private static final ThreadLocal<String> contexHolder = new ThreadLocal<String>();

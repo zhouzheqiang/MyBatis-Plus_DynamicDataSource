@@ -1,4 +1,4 @@
-package com.airticket.book.config;
+package com.zzq.pro.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -7,8 +7,9 @@ import org.springframework.stereotype.Component;
 import java.sql.SQLException;
 
 @Component
-@ConfigurationProperties(prefix = "spring.datasource.druid.slave")
-public class SlaveDruidProperties {
+@ConfigurationProperties(prefix = "spring.datasource.druid.master")
+public class DruidProperties {
+
     private String url;
 
     private String username;

@@ -2,7 +2,7 @@ server:
     port: 18080
 
 mybatis-plus:
-  type-aliases-package: com.airticket.book.entity
+  type-aliases-package: com.zzq.pro.entity
   mapper-locations: classpath:mapper/**/*.xml
   global-config:
     id-type: 0  #0:数据库ID自增   1:用户输入id  2:全局唯一id(IdWorker)  3:全局唯一ID(uuid)

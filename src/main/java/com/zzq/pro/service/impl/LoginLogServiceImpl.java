@@ -1,8 +1,8 @@
-package com.airticket.book.service.impl;
+package com.zzq.pro.service.impl;
 
-import com.airticket.book.mapper.LoginLogMapper;
-import com.airticket.book.model.LoginLog;
-import com.airticket.book.service.LoginLogService;
+import com.zzq.pro.mapper.LoginLogMapper;
+import com.zzq.pro.model.LoginLog;
+import com.zzq.pro.service.LoginLogService;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.airticket.book.config;
+package com.zzq.pro.config;
 
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 

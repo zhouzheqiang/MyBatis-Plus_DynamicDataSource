@@ -1,8 +1,8 @@
-package com.airticket.book.controller;
+package com.zzq.pro.controller;
 
-import com.airticket.book.annotation.SwitchDataSource;
-import com.airticket.book.model.LoginLog;
-import com.airticket.book.service.LoginLogService;
+import com.zzq.pro.annotation.SwitchDataSource;
+import com.zzq.pro.model.LoginLog;
+import com.zzq.pro.service.LoginLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.GetMapping;

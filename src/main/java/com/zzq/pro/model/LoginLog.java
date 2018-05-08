@@ -1,4 +1,4 @@
-package com.airticket.book.model;
+package com.zzq.pro.model;
 
 import com.baomidou.mybatisplus.annotations.TableName;
 

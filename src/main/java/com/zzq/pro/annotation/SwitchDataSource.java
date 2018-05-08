@@ -1,4 +1,4 @@
-package com.airticket.book.annotation;
+package com.zzq.pro.annotation;
 
 import java.lang.annotation.*;
 

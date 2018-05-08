@@ -1,6 +1,6 @@
-package com.airticket.book.mapper;
+package com.zzq.pro.mapper;
 
-import com.airticket.book.model.LoginLog;
+import com.zzq.pro.model.LoginLog;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 
 /**

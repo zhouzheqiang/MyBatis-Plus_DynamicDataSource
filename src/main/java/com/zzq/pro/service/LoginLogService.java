@@ -1,6 +1,6 @@
-package com.airticket.book.service;
+package com.zzq.pro.service;
 
-import com.airticket.book.model.LoginLog;
+import com.zzq.pro.model.LoginLog;
 
 import java.util.Date;
 import java.util.List;

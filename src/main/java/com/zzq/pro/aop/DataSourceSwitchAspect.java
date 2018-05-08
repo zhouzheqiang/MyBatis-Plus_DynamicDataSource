@@ -1,8 +1,8 @@
-package com.airticket.book.aop;
+package com.zzq.pro.aop;
 
-import com.airticket.book.annotation.SwitchDataSource;
-import com.airticket.book.config.DBContextHolder;
-import com.airticket.book.config.DBTypeEnum;
+import com.zzq.pro.annotation.SwitchDataSource;
+import com.zzq.pro.config.DBContextHolder;
+import com.zzq.pro.config.DBTypeEnum;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
@@ -19,7 +19,7 @@ import java.lang.reflect.Method;
 @Order(1)
 public class DataSourceSwitchAspect {
 
-    @Pointcut(value = "@annotation(com.airticket.book.annotation.SwitchDataSource)")
+    @Pointcut(value = "@annotation(com.zzq.pro.annotation.SwitchDataSource)")
     private void switchDataSource() {
 
     }
