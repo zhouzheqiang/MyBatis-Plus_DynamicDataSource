@@ -1,5 +1,5 @@
 server:
-    port: 18080
+    port: 18081
 
 mybatis-plus:
   type-aliases-package: com.zzq.pro.entity
