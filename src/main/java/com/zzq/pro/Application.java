@@ -1,4 +1,4 @@
-package com.airticket.book;
+package com.zzq.pro;
 
 import org.mybatis.spring.annotation.MapperScan;
         import org.springframework.boot.SpringApplication;
@@ -15,9 +15,9 @@ import org.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication
 @EnableSwagger2
 @Configuration
-@ComponentScan("com.airticket.book")
+@ComponentScan("com.zzq.pro")
 @EnableTransactionManagement
-@MapperScan("com.airticket.book.mapper")
+@MapperScan("com.zzq.pro.mapper")
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
